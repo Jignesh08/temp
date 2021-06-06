@@ -5,7 +5,7 @@ import {Feather} from '@expo/vector-icons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
 const IndexScreen = ({navigation}) => {
-    console.log("Hello user");
+    console.log("Hello Wolrd");
     const {state, deleteBlogPost, getBlogPost} = useContext(Context);
 
     useEffect(() => {
